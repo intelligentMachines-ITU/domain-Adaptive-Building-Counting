@@ -16,15 +16,15 @@ Estimating the number of buildings in any geographical region is a vital compone
 To evaluate the accuracy of the proposed approach in cross-region building counting, in our experiments, we use the IML-DAC and South Asian regions of xView as target (test) datasets. The geographical locations of areas from which IML-DAC are collected are mainly South Asian regions. 
 The dataset contains a total of 4935 patches non-overlapping patches of dimension 500x500 pixels.
 
-## Dataset Link and Contents
+### Dataset Link and Contents
 
 The dataset can be downloaded from here.
 
 The link will contain three folders divided into training, validation, and testing. Each folder contains two subfolders: images and ground truths.
 
-# Implementing the code
+# Implementing the Code
 
-## Installation
+### Installation
 
 PyTorch 0.4.1
 
