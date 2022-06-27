@@ -29,3 +29,11 @@ The link will contain three folders divided into training, validation, and testi
 PyTorch 0.4.1
 
 Python 2.7
+
+### Training the Source Model
+
+### Adapting using L_DMA
+
+### Adapting using L_CWI
+
+### Adapting using L_CAI
