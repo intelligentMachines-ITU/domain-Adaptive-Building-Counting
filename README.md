@@ -34,8 +34,15 @@ Python 2.7
 
 ### Training the Source Model
 
+Update the paths in all .py files according to locations of folders. Then run train.py file.
+
 ### Adapting using L_DMA
+
+Update the paths in all .py files according to locations of folders. Then run train_dma.py file.
 
 ### Adapting using L_CWI
 
+Update the paths in all .py files according to locations of folders. Then run train_cwi.py file.
+
 ### Adapting using L_CAI
+Update the paths in all .py files according to locations of folders. Then run train_ai.py file.
