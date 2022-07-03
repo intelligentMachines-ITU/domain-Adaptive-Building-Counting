@@ -1,9 +1,9 @@
 # Domain-Adaptive-Building-Counting
 **Paper Title:** Cross-Region Building Counting in Satellite Imagery using Counting Consistency
 
-**Pre-print** available here
+**Pre-print** available [here]()
 
-**Dataset** available here
+**Dataset** available [here](https://drive.google.com/drive/folders/1CIYGCJucyJ9dnwjt0BZJ7pnyiKIDuRQC?usp=sharing)
 
 **Dataset Name:** IML-DAC
 
@@ -18,13 +18,15 @@ The dataset contains a total of 4935 patches non-overlapping patches of dimensio
 
 ### Dataset Link and Contents
 
-The dataset can be downloaded from here.
+The dataset can be downloaded from [here](https://drive.google.com/drive/folders/1CIYGCJucyJ9dnwjt0BZJ7pnyiKIDuRQC?usp=sharing).
 
 The link will contain three folders divided into training, validation, and testing. Each folder contains two subfolders: images and ground truths.
 
 # Implementing the Code
 
 ### Installation
+
+The following need to be installed before proceeding:
 
 PyTorch 0.4.1
 
