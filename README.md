@@ -42,7 +42,7 @@ Use create_json.py to generate the json file which contains the path to the patc
 
 Then in the command file, run the following command:
 
-git python train.py train.json val.json
+```python train.py train.json val.json```
 
 ### Adapting using L_DMA
 
