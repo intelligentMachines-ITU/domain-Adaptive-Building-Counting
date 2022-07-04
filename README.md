@@ -46,11 +46,35 @@ Then in the command file, run the following command:
 
 ### Adapting using L_DMA
 
-Update the paths in all .py files according to locations of folders. Then run train_dma.py file.
+Update the paths in all .py files contained in the rar file shared, according to locations of folders.
+
+Load the model saved after it was trained on source dataset. 
+
+Use create_json.py to generate the json file which contains the path to the patches of both Source and Target Dataset.
+
+Then in the command file, run the following command:
+
+```python train_mmd.py train_s.json train_t.json val.json```
 
 ### Adapting using L_CWI
 
-Update the paths in all .py files according to locations of folders. Then run train_cwi.py file.
+Update the paths in all .py files contained in the rar file shared, according to locations of folders.
+
+Load the model saved after it was  adapted using L_DMA. 
+
+Use create_json.py to generate the json file which contains the path to the patches of both Source and Target Dataset.
+
+Then in the command file, run the following command:
+
+```python train_cwi.py train_s.json train_t.json val.json```
 
 ### Adapting using L_CAI
-Update the paths in all .py files according to locations of folders. Then run train_ai.py file.
+Update the paths in all .py files contained in the rar file shared, according to locations of folders.
+
+Load the model saved after it was adapted using L_DMA. 
+
+Use create_json.py to generate the json file which contains the path to the patches of both Source and Target Dataset.
+
+Then in the command file, run the following command:
+
+```python train_cai.py train_s.json train_t.json val.json```
