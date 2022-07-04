@@ -34,7 +34,12 @@ Python 2.7
 
 ### Training the Source Model
 
-Update the paths in all .py files according to locations of folders. Then run train.py file.
+Update the paths in all .py files contained in the rar file shared, according to locations of folders. 
+make_dataset.py can be used to generate ground truths which are in the hdf5 format.
+Use create_json.py to generate the json file which contains the path to the patches (Source Dataset).
+Then in the command file, run the following command:
+
+python train.py train.json val.json
 
 ### Adapting using L_DMA
 
